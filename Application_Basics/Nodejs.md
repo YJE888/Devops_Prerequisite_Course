@@ -1,4 +1,16 @@
 # Node.js
+### Node.js vs Spring
+|**Spring**|**Node.js**|
+|:---:|:---:|
+|Java|JavaScript|
+|동기식|비동기식|
+|안정성과 확장성 뛰어남|빠른 개발과 프로토타입에 적합|
+|java 기반의 라이브러리 사용| npm을 통해 수많은 패키지와 모듈 사용|
+|복잡한 로직의 앱, 백엔드 서비스|스트리밍 서비스, 경량 및 빠른 API 서버|
+|안정적이고 다중 스레드 활용|단일 스레드로 동작하므로, CPU 집중적인 작업에서는 성능이 떨어짐|
+
+
+&nbsp;
 ### Node.js 14버전 설치
 ```
 # -s : 정적으로 출력
@@ -10,7 +22,7 @@ $ sudo yum install -y nodejs
 # 버전 확인
 $ node -v
 ```
-
+&nbsp;
 ### NPM(Node Package Manager)
 - 버전 확인
   ```
@@ -36,6 +48,7 @@ $ node -v
         └── tests
             └── file_spec.js
   ```
+&nbsp;  
 ### 모듈(Modules)
 - node.js에서의 Built-in Modules 과 External Modules 이 있음
   - 빌트인 모듈
