@@ -16,7 +16,12 @@
   - SQL
 - 설치
   ```
+  # mariadb
   $ yum -y install mariadb-server
+
+  # mysql Server
+  1) $ sudo yum install https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+  2) $ yum install mysql-community-server
   ```
 - 로그 확인
   ```
