@@ -16,7 +16,7 @@
   - SQL
 - 설치
   ```
-  $ yum install -y mysql
+  $ yum -y install mariadb-server
   ```
 - 로그 확인
   ```
