@@ -144,4 +144,5 @@
     # persons 콜렉션에서 나이가 30인 문서 검색
     mongo> db.persons.find({ age: 30})
     ```
-    <img width="493" alt="image" src="https://github.com/YJE888/Devops_Prerequisite_Course/assets/75539276/0cbc5859-f606-4cdd-9284-7b01a037471e">
+    <img width="486" alt="image" src="https://github.com/YJE888/Devops_Prerequisite_Course/assets/75539276/f5c416d1-7d5a-438c-a164-dd10306a6647">
+
